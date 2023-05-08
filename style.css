@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+    
+}
+
+.titlex{
+    color: aqua;
+    text-align: center;
+    background-color: black;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 60px;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+input{
+    width: 10%;
+}
+
+p{
+    text-align: center;
+}
+
+.buttonDiv{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+#submit{
+    background-color: blueviolet;
+    color: chartreuse;
+    border-radius: 30%;
+    height: 60px;
+    width: 80px;
+}

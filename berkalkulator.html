@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bérkalkulátor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2 class="titlex">2023 évi fizetés kalkulátor</h2>
+
+    <div class="container">
+
+        <label for="salary">Fizetésed:</label>
+        <input type="number" id="salary" name="salary" min="0" required>
+
+        <label for="other">Egyebek:</label>
+        <input type="number" id="other" name="other" min="0">
+
+
+    </div>
+
+    
+    <!--
+    <div class="data">
+
+        <p>Adó:</p>
+
+        <p>Nyugdíj:</p>
+
+        <p>Egészség biztosítás:</p>
+
+        <p>Munkaerő p.j:</p>
+
+        <p>Nettó:</p>
+
+        <p>Szociális hozzájárulás:</p>
+
+        <p>Munkaerő p.h:</p>
+
+        <p>Munkaadó költsége:</p>
+
+    </div>    
+    -->
+
+    <div class="actualData">
+        <span>SZJA:</span>
+        <span id="szjaO"></span> 
+        <br>  <!--15-->
+
+        <span>Társadalom biztosítás:</span> <!--18,5-->
+        <span id="tbO"></span> 
+        <br>
+
+        <span>Nettó jövedelem:</span>
+        <span id="netto"></span> 
+        <br>
+
+    </div>    
+
+
+
+    <div class="buttonDiv">
+    <button type="button" id="submit" onclick="nothehe()">Számolás!</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="berkalkulator.js"></script>
+</body>
+
+</html>
