@@ -1,2 +1,2 @@
 # berkalkulator
-berkalkulator
+tanfolyam gyakorló feladat
